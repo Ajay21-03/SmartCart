@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # Google Geocoding API key
-GOOGLE_MAPS_API_KEY ='AIzaSyCFhD2MFRsgeCUvqQMjmr5cGEk9NH0xQYg'
+GOOGLE_MAPS_API_KEY =''
 
 def get_coordinates_from_address(address: str) -> Tuple[float, float]:
     """
